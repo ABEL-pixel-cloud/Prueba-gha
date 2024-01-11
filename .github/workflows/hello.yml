@@ -1,0 +1,16 @@
+name: saludar a los panas
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  hello_pana:
+    runs-on: ubuntu-18.04
+    steps:
+      - name: Imprimir el mensaje
+        run: |
+         echo "hola mi gente"
+
+

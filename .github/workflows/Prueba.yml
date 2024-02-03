@@ -2,9 +2,11 @@ on:
   push:
     branches:
       - main
+      - RamaPrueba
   pull_request:
     branches:
       - main
+      - RamaPrueba
 
 jobs:
   build:
